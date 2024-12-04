@@ -1,0 +1,16 @@
+/home/luis-a/mirobot_ws/install/mirobot_package/lib/mirobot_package/mirobot_node
+/home/luis-a/mirobot_ws/install/mirobot_package/share/ament_index/resource_index/package_run_dependencies/mirobot_package
+/home/luis-a/mirobot_ws/install/mirobot_package/share/ament_index/resource_index/parent_prefix_path/mirobot_package
+/home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/ament_prefix_path.sh
+/home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/ament_prefix_path.dsv
+/home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/path.sh
+/home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/path.dsv
+/home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.bash
+/home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.sh
+/home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.zsh
+/home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.dsv
+/home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/package.dsv
+/home/luis-a/mirobot_ws/install/mirobot_package/share/ament_index/resource_index/packages/mirobot_package
+/home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/cmake/mirobot_packageConfig.cmake
+/home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/cmake/mirobot_packageConfig-version.cmake
+/home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/package.xml

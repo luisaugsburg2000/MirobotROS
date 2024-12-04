@@ -1,0 +1,7 @@
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktest_joint_state_fetch/srv/print_pose.hpp: No such file or directory
+    2 | #include [01;31m[K"test_joint_state_fetch/srv/print_pose.hpp"[m[K  // Header file for the custom service
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/move_program.dir/build.make:76: CMakeFiles/move_program.dir/src/move_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

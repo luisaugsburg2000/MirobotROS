@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target mirobot_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mirobot_node.dir/src/mirobot_node.cpp.o[0m
+[01m[K/home/luis-a/mirobot_ws/src/mirobot_package/src/mirobot_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/luis-a/mirobot_ws/src/mirobot_package/src/mirobot_node.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface[m[K’ was not declared in this scope
+   34 |     [01;31m[Kplanning_scene_interface[m[K.applyCollisionObject(sphere);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/luis-a/mirobot_ws/src/mirobot_package/src/mirobot_node.cpp:34:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ksphere[m[K’ was not declared in this scope
+   34 |     planning_scene_interface.applyCollisionObject([01;31m[Ksphere[m[K);
+      |                                                   [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mirobot_node.dir/build.make:76: CMakeFiles/mirobot_node.dir/src/mirobot_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mirobot_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

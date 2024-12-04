@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target m2_iface_lib[0m
+[ 50%] Built target m2_iface_lib
+[35m[1mConsolidate compiler generated dependencies of target m2_iface_node[0m
+[100%] Built target m2_iface_node
+-- Install configuration: ""
+-- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/lib/move_program/libm2_iface_lib.a
+-- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/lib/move_program/m2_iface_node
+-- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/include/
+-- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/include//move_program
+-- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/include//move_program/m2_iface.hpp
+-- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/launch/launch
+-- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/launch/launch/demo.launch.py
+-- Installing: /home/luis-a/mirobot_ws/install/move_program/share/ament_index/resource_index/package_run_dependencies/move_program
+-- Installing: /home/luis-a/mirobot_ws/install/move_program/share/ament_index/resource_index/parent_prefix_path/move_program
+-- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/environment/ament_prefix_path.sh
+-- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/environment/path.sh
+-- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/environment/path.dsv
+-- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/local_setup.bash
+-- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/local_setup.sh
+-- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/local_setup.zsh
+-- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/local_setup.dsv
+-- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/package.dsv
+-- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/ament_index/resource_index/packages/move_program
+-- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/cmake/move_programConfig.cmake
+-- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/cmake/move_programConfig-version.cmake
+-- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/package.xml

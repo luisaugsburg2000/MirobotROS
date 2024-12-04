@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target move_program[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_program.dir/src/move_program.cpp.o[0m
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:18:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_loader[m[K’ has not been declared
+   18 |   [01;31m[Krobot_model_loader[m[K::RobotModelLoader robot_model_loader(node);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:19:56:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_loader[m[K’ was not declared in this scope
+   19 | moveit::core::RobotModelPtr& kinematic_model = [01;31m[Krobot_model_loader[m[K.getModel();
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/move_program.dir/build.make:76: CMakeFiles/move_program.dir/src/move_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

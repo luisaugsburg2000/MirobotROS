@@ -1,0 +1,11 @@
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:41:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KgetJointModelGroup[m[K’; did you mean ‘[01m[KgetJointModelGroupNames[m[K’?
+   41 | ate->setToRandomPositions(move_group_interface.[01;31m[KgetJointModelGroup[m[K("arm"));
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[KgetJointModelGroupNames[m[K
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:41:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   41 |   bool [01;35m[Ksuccess[m[K = current_state->setToRandomPositions(move_group_interface.getJointModelGroup("arm"));
+      |        [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_program.dir/build.make:76: CMakeFiles/move_program.dir/src/move_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

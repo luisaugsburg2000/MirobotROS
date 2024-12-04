@@ -1,0 +1,4 @@
+Invoking command in '/home/luis-a/mirobot_ws/build/hello_moveit': CMAKE_PREFIX_PATH=/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/hello_moveit -- -j32 -l32
+Invoked command in '/home/luis-a/mirobot_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/hello_moveit -- -j32 -l32
+Invoking command in '/home/luis-a/mirobot_ws/build/hello_moveit': CMAKE_PREFIX_PATH=/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/hello_moveit
+Invoked command in '/home/luis-a/mirobot_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/hello_moveit

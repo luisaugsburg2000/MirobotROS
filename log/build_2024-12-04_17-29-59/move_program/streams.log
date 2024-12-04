@@ -1,0 +1,54 @@
+[0.007s] Invoking command in '/home/luis-a/mirobot_ws/build/move_program': /usr/bin/cmake /home/luis-a/mirobot_ws/src/move_program -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/luis-a/mirobot_ws/install/move_program
+[0.016s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.088s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.110s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.112s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.117s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.124s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.156s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.157s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.218s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.249s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.258s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.358s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.363s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.368s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.381s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.404s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.419s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.493s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.510s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.521s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.572s] -- Configuring done
+[0.593s] -- Generating done
+[0.594s] [33mCMake Warning:
+[0.594s]   Manually-specified variables were not used by the project:
+[0.594s] 
+[0.594s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.594s] 
+[0.594s] [0m
+[0.594s] -- Build files have been written to: /home/luis-a/mirobot_ws/build/move_program
+[0.602s] Invoked command in '/home/luis-a/mirobot_ws/build/move_program' returned '0': /usr/bin/cmake /home/luis-a/mirobot_ws/src/move_program -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/luis-a/mirobot_ws/install/move_program
+[0.603s] Invoking command in '/home/luis-a/mirobot_ws/build/move_program': /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/move_program -- -j32 -l32
+[0.635s] [ 25%] [32mBuilding CXX object CMakeFiles/m2_iface_lib.dir/src/m2_iface.cpp.o[0m
+[4.426s] [ 50%] [32m[1mLinking CXX static library libm2_iface_lib.a[0m
+[4.445s] [ 50%] Built target m2_iface_lib
+[4.456s] [ 75%] [32mBuilding CXX object CMakeFiles/m2_iface_node.dir/src/main_node.cpp.o[0m
+[8.138s] [100%] [32m[1mLinking CXX executable m2_iface_node[0m
+[8.267s] [100%] Built target m2_iface_node
+[8.273s] Invoked command in '/home/luis-a/mirobot_ws/build/move_program' returned '0': /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/move_program -- -j32 -l32
+[8.304s] Invoking command in '/home/luis-a/mirobot_ws/build/move_program': /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/move_program
+[8.307s] -- Install configuration: ""
+[8.308s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/lib/move_program/libm2_iface_lib.a
+[8.308s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/lib/move_program/m2_iface_node
+[8.308s] -- Set runtime path of "/home/luis-a/mirobot_ws/install/move_program/lib/move_program/m2_iface_node" to ""
+[8.308s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/include/
+[8.308s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/include//move_program
+[8.308s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/include//move_program/m2_iface.hpp
+[8.308s] [31mCMake Error at cmake_install.cmake:74 (file):
+[8.308s]   file INSTALL cannot find "/home/luis-a/mirobot_ws/src/move_program/launch":
+[8.308s]   No such file or directory.
+[8.308s] 
+[8.308s] [0m
+[8.309s] Invoked command in '/home/luis-a/mirobot_ws/build/move_program' returned '1': /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/move_program

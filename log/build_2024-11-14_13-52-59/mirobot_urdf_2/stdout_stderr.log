@@ -1,0 +1,38 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/luis-a/mirobot_ws/build/mirobot_urdf_2
+-- Install configuration: ""
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//launch
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//launch/view_mirobot.launch.py
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//launch/.vscode
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//launch/.vscode/c_cpp_properties.json
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//launch/.vscode/settings.json
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//urdf
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//urdf/mirobot_urdf_2.xacro
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//urdf/mirobot_urdf_2.urdf
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//urdf/mirobot_urdf_2.csv
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//config
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//config/mirobot_rviz.rviz
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/ament_index/resource_index/package_run_dependencies/mirobot_urdf_2
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/ament_index/resource_index/parent_prefix_path/mirobot_urdf_2
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/environment/ament_prefix_path.sh
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/environment/path.sh
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/environment/path.dsv
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/local_setup.bash
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/local_setup.sh
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/local_setup.zsh
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/local_setup.dsv
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/package.dsv
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/ament_index/resource_index/packages/mirobot_urdf_2
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/cmake/mirobot_urdf_2Config.cmake
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/cmake/mirobot_urdf_2Config-version.cmake
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/package.xml

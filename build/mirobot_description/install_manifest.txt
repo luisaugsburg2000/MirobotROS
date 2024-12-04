@@ -1,0 +1,15 @@
+/home/luis-a/mirobot_ws/install/mirobot_description/share/ament_index/resource_index/package_run_dependencies/mirobot_description
+/home/luis-a/mirobot_ws/install/mirobot_description/share/ament_index/resource_index/parent_prefix_path/mirobot_description
+/home/luis-a/mirobot_ws/install/mirobot_description/share/mirobot_description/environment/ament_prefix_path.sh
+/home/luis-a/mirobot_ws/install/mirobot_description/share/mirobot_description/environment/ament_prefix_path.dsv
+/home/luis-a/mirobot_ws/install/mirobot_description/share/mirobot_description/environment/path.sh
+/home/luis-a/mirobot_ws/install/mirobot_description/share/mirobot_description/environment/path.dsv
+/home/luis-a/mirobot_ws/install/mirobot_description/share/mirobot_description/local_setup.bash
+/home/luis-a/mirobot_ws/install/mirobot_description/share/mirobot_description/local_setup.sh
+/home/luis-a/mirobot_ws/install/mirobot_description/share/mirobot_description/local_setup.zsh
+/home/luis-a/mirobot_ws/install/mirobot_description/share/mirobot_description/local_setup.dsv
+/home/luis-a/mirobot_ws/install/mirobot_description/share/mirobot_description/package.dsv
+/home/luis-a/mirobot_ws/install/mirobot_description/share/ament_index/resource_index/packages/mirobot_description
+/home/luis-a/mirobot_ws/install/mirobot_description/share/mirobot_description/cmake/mirobot_descriptionConfig.cmake
+/home/luis-a/mirobot_ws/install/mirobot_description/share/mirobot_description/cmake/mirobot_descriptionConfig-version.cmake
+/home/luis-a/mirobot_ws/install/mirobot_description/share/mirobot_description/package.xml

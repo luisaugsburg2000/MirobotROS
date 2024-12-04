@@ -1,0 +1,59 @@
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:6:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+    6 |   [01;31m[Kros[m[K::init(argc, argv, "move_to_random_goal");
+      |   [01;31m[K^~~[m[K
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:7:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+    7 |   [01;31m[Kros[m[K::NodeHandle node_handle;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:8:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+    8 |   [01;31m[Kros[m[K::AsyncSpinner spinner(1);
+      |   [01;31m[K^~~[m[K
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:9:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kspinner[m[K’ was not declared in this scope
+    9 |   [01;31m[Kspinner[m[K.start();
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:12:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [4])[m[K’
+   12 | :planning_interface::MoveGroupInterface move_group("arm"[01;31m[K)[m[K;
+      |                                                         [01;31m[K^[m[K
+
+In file included from [01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  159 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [4][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+  159 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:19:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KgetJointModelGroup[m[K’; did you mean ‘[01m[KgetJointModelGroupNames[m[K’?
+   19 | current_state->setToRandomPositions(move_group.[01;31m[KgetJointModelGroup[m[K("arm"));
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[KgetJointModelGroupNames[m[K
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO[m[K’ was not declared in this scope
+   22 |     [01;31m[KROS_INFO[m[K("Random valid state generated!");
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:29:100:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   29 |  == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                  [01;35m[K^~~~~~~[m[K
+
+In file included from [01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:35:7:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+   35 |       [01;31m[KROS_ERROR[m[K("Planning failed.");
+      |       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+   38 |     [01;31m[KROS_ERROR[m[K("Failed to generate a random valid state.");
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:41:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   41 |   [01;31m[Kros[m[K::shutdown();
+      |   [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/move_program.dir/build.make:76: CMakeFiles/move_program.dir/src/move_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

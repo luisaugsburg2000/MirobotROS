@@ -1,0 +1,97 @@
+MOVEIT2 CODE
+
+#include "rclcpp/rclcpp.hpp"
+#include "sensor_msgs/msg/joint_state.hpp"
+#include "geometry_msgs/msg/point.hpp"
+#include <moveit/move_group_interface/move_group_interface.h>
+#include <moveit/planning_scene_interface/planning_scene_interface.h>
+#include <memory>  // Include this for std::shared_ptr
+
+class Mirobot : public rclcpp::Node {
+public:
+    Mirobot() : Node("mirobot_robot") {
+        // Publisher for joint commands
+        mirobot_pub = this->create_publisher<sensor_msgs::msg::JointState>("joint_command", 10);
+
+        // Subscriber for sphere position
+        sphere_sub = this->create_subscription<geometry_msgs::msg::Point>(
+            "/sphere_position", 10,
+            std::bind(&Mirobot::spherePositionCallback, this, std::placeholders::_1)
+        );
+
+        // Initialize joint message
+        joint_message = sensor_msgs::msg::JointState();
+        joint_message.name = {"joint1", "joint2", "joint3", "joint4", "joint5", "joint6"};
+        joint_message.position = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+        joint_message.velocity = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+
+        // Control parameters
+        step = 20;
+        frequency = 0.1;
+        amplitude = 1;
+
+        // Timer to update joint state periodically
+        timer_ = this->create_wall_timer(
+            std::chrono::milliseconds(20),
+            std::bind(&Mirobot::jointCallback, this)
+        );
+    }
+
+    // Timer callback to update joint positions
+    void jointCallback() {
+        // Calculate target position and velocity
+        target_position = sin(2 * M_PI * frequency * time);
+        target_velocity = 2 * M_PI * frequency * cos(2 * M_PI * frequency * time);
+
+        for (double &pos : joint_message.position) {
+            pos = target_position;
+        }
+        for (double &vel : joint_message.velocity) {
+            vel = target_velocity;
+        }
+
+        mirobot_pub->publish(joint_message);
+
+        // Increment time
+        time += step / 1000.0;
+    }
+
+    // MoveIt MoveGroupInterface pointer
+    std::shared_ptr<moveit::planning_interface::MoveGroupInterface> move_group_interface;
+
+private:
+    // Callback to handle incoming sphere position data
+    void spherePositionCallback(const geometry_msgs::msg::Point::SharedPtr msg) {
+        RCLCPP_INFO(this->get_logger(), "Received sphere position: x=%.3f, y=%.3f, z=%.3f",
+                    msg->x, msg->y, msg->z);
+
+        // Process the sphere position data as needed
+        // For example, you might modify joint targets based on sphere's position.
+    }
+
+    // Member variables for joint state publishing
+    double frequency = 0.0, time = 0.0, step = 0.0, amplitude = 0.0, target_position = 0.0, target_velocity = 0.0;
+    rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr mirobot_pub;
+    rclcpp::TimerBase::SharedPtr timer_;
+    sensor_msgs::msg::JointState joint_message;
+
+    // Subscriber for receiving sphere position
+    rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr sphere_sub;
+};
+
+int main(int argc, char **argv) {
+    rclcpp::init(argc, argv);
+    
+    // Create Mirobot node as a shared_ptr
+    auto node = std::make_shared<Mirobot>();
+
+    // Initialize MoveGroupInterface after node is created
+    auto move_group_interface = std::make_shared<moveit::planning_interface::MoveGroupInterface>(node, "panda_arm");
+
+    // Pass MoveGroupInterface to the node (optional, if you want to store it inside the node)
+    node->move_group_interface = move_group_interface;
+
+    rclcpp::spin(node);
+    rclcpp::shutdown();
+    return 0;
+}

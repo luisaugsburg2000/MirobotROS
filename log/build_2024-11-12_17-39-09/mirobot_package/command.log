@@ -1,0 +1,2 @@
+Invoking command in '/home/luis-a/mirobot_ws/build/mirobot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_package -- -j32 -l32
+Invoked command in '/home/luis-a/mirobot_ws/build/mirobot_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_package -- -j32 -l32

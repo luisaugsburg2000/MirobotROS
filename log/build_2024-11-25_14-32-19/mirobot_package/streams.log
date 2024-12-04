@@ -1,0 +1,44 @@
+[0.007s] Invoking command in '/home/luis-a/mirobot_ws/build/mirobot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_package -- -j32 -l32
+[0.041s] Built target ament_cmake_python_copy_mirobot_package
+[0.155s] running egg_info
+[0.155s] writing mirobot_package.egg-info/PKG-INFO
+[0.155s] writing dependency_links to mirobot_package.egg-info/dependency_links.txt
+[0.155s] writing top-level names to mirobot_package.egg-info/top_level.txt
+[0.156s] reading manifest file 'mirobot_package.egg-info/SOURCES.txt'
+[0.157s] writing manifest file 'mirobot_package.egg-info/SOURCES.txt'
+[0.170s] Built target ament_cmake_python_build_mirobot_package_egg
+[0.176s] Invoked command in '/home/luis-a/mirobot_ws/build/mirobot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_package -- -j32 -l32
+[0.190s] Invoking command in '/home/luis-a/mirobot_ws/build/mirobot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/mirobot_package
+[0.194s] -- Install configuration: ""
+[0.194s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/pythonpath.sh
+[0.194s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/pythonpath.dsv
+[0.194s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package-0.0.0-py3.10.egg-info
+[0.194s] -- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package-0.0.0-py3.10.egg-info/top_level.txt
+[0.194s] -- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package-0.0.0-py3.10.egg-info/PKG-INFO
+[0.194s] -- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.194s] -- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.194s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package
+[0.194s] -- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package/mirobot_node.py
+[0.194s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package/__init__.py
+[0.211s] Listing '/home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package'...
+[0.211s] Compiling '/home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package/mirobot_node.py'...
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/lib/mirobot_package
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/lib/mirobot_package/mirobot_node.cpp
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/lib/mirobot_package/mirobot_node_old.txt
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/lib/mirobot_package/mirobot_node_new.txt
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/ament_index/resource_index/package_run_dependencies/mirobot_package
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/ament_index/resource_index/parent_prefix_path/mirobot_package
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/ament_prefix_path.sh
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/ament_prefix_path.dsv
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/path.sh
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/path.dsv
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.bash
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.sh
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.zsh
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.dsv
+[0.213s] -- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/package.dsv
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/ament_index/resource_index/packages/mirobot_package
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/cmake/mirobot_packageConfig.cmake
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/cmake/mirobot_packageConfig-version.cmake
+[0.213s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/package.xml
+[0.215s] Invoked command in '/home/luis-a/mirobot_ws/build/mirobot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/mirobot_package

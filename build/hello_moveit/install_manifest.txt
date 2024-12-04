@@ -1,0 +1,16 @@
+/home/luis-a/mirobot_ws/install/hello_moveit/lib/hello_moveit/hello_moveit
+/home/luis-a/mirobot_ws/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+/home/luis-a/mirobot_ws/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+/home/luis-a/mirobot_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+/home/luis-a/mirobot_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+/home/luis-a/mirobot_ws/install/hello_moveit/share/hello_moveit/environment/path.sh
+/home/luis-a/mirobot_ws/install/hello_moveit/share/hello_moveit/environment/path.dsv
+/home/luis-a/mirobot_ws/install/hello_moveit/share/hello_moveit/local_setup.bash
+/home/luis-a/mirobot_ws/install/hello_moveit/share/hello_moveit/local_setup.sh
+/home/luis-a/mirobot_ws/install/hello_moveit/share/hello_moveit/local_setup.zsh
+/home/luis-a/mirobot_ws/install/hello_moveit/share/hello_moveit/local_setup.dsv
+/home/luis-a/mirobot_ws/install/hello_moveit/share/hello_moveit/package.dsv
+/home/luis-a/mirobot_ws/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+/home/luis-a/mirobot_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+/home/luis-a/mirobot_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+/home/luis-a/mirobot_ws/install/hello_moveit/share/hello_moveit/package.xml

@@ -1,0 +1,4 @@
+Invoking command in '/home/luis-a/mirobot_ws/build/move_program': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/move_program -- -j32 -l32
+Invoked command in '/home/luis-a/mirobot_ws/build/move_program' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/move_program -- -j32 -l32
+Invoking command in '/home/luis-a/mirobot_ws/build/move_program': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/move_program
+Invoked command in '/home/luis-a/mirobot_ws/build/move_program' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/move_program

@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/luis-a/mirobot_ws/build/move_program': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/move_program -- -j32 -l32
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target move_program[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/move_program.dir/src/move_program.cpp.o[0m
+[3.066s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.067s]                  from [01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:2[m[K:
+[3.067s] [01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.067s] [01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:43:29:[m[K [01;31m[Kerror: [m[K‘[01m[KjointNamesStr[m[K’ was not declared in this scope; did you mean ‘[01m[KjointNamesStream[m[K’?
+[3.067s]    43 |   RCLCPP_INFO(logger, "%s", [01;31m[KjointNamesStr[m[K.c_str());
+[3.067s]       |                             [01;31m[K^~~~~~~~~~~~~[m[K
+[4.755s] gmake[2]: *** [CMakeFiles/move_program.dir/build.make:76: CMakeFiles/move_program.dir/src/move_program.cpp.o] Error 1
+[4.756s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_program.dir/all] Error 2
+[4.756s] gmake: *** [Makefile:146: all] Error 2
+[4.758s] Invoked command in '/home/luis-a/mirobot_ws/build/move_program' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/move_program -- -j32 -l32

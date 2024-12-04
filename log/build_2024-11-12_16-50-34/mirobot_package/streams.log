@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/luis-a/mirobot_ws/build/mirobot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_package -- -j32 -l32
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target mirobot_node[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/mirobot_node.dir/src/mirobot_node.cpp.o[0m
+[7.998s] [100%] [32m[1mLinking CXX executable mirobot_node[0m
+[8.398s] [100%] Built target mirobot_node
+[8.406s] Invoked command in '/home/luis-a/mirobot_ws/build/mirobot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_package -- -j32 -l32
+[8.422s] Invoking command in '/home/luis-a/mirobot_ws/build/mirobot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/mirobot_package
+[8.426s] -- Install configuration: ""
+[8.426s] -- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/lib/mirobot_package/mirobot_node
+[8.429s] -- Set runtime path of "/home/luis-a/mirobot_ws/install/mirobot_package/lib/mirobot_package/mirobot_node" to ""
+[8.429s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/ament_index/resource_index/package_run_dependencies/mirobot_package
+[8.429s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/ament_index/resource_index/parent_prefix_path/mirobot_package
+[8.429s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/ament_prefix_path.sh
+[8.429s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/ament_prefix_path.dsv
+[8.429s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/path.sh
+[8.429s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/path.dsv
+[8.429s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.bash
+[8.429s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.sh
+[8.429s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.zsh
+[8.429s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.dsv
+[8.430s] -- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/package.dsv
+[8.430s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/ament_index/resource_index/packages/mirobot_package
+[8.430s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/cmake/mirobot_packageConfig.cmake
+[8.430s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/cmake/mirobot_packageConfig-version.cmake
+[8.430s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/package.xml
+[8.431s] Invoked command in '/home/luis-a/mirobot_ws/build/mirobot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/mirobot_package

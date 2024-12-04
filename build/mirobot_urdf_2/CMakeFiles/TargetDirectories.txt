@@ -1,0 +1,9 @@
+/home/luis-a/mirobot_ws/build/mirobot_urdf_2/CMakeFiles/uninstall.dir
+/home/luis-a/mirobot_ws/build/mirobot_urdf_2/CMakeFiles/mirobot_urdf_2_uninstall.dir
+/home/luis-a/mirobot_ws/build/mirobot_urdf_2/CMakeFiles/test.dir
+/home/luis-a/mirobot_ws/build/mirobot_urdf_2/CMakeFiles/edit_cache.dir
+/home/luis-a/mirobot_ws/build/mirobot_urdf_2/CMakeFiles/rebuild_cache.dir
+/home/luis-a/mirobot_ws/build/mirobot_urdf_2/CMakeFiles/list_install_components.dir
+/home/luis-a/mirobot_ws/build/mirobot_urdf_2/CMakeFiles/install.dir
+/home/luis-a/mirobot_ws/build/mirobot_urdf_2/CMakeFiles/install/local.dir
+/home/luis-a/mirobot_ws/build/mirobot_urdf_2/CMakeFiles/install/strip.dir

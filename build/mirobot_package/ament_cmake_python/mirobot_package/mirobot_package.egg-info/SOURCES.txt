@@ -1,0 +1,7 @@
+setup.py
+mirobot_package/__init__.py
+mirobot_package/mirobot_node.py
+mirobot_package.egg-info/PKG-INFO
+mirobot_package.egg-info/SOURCES.txt
+mirobot_package.egg-info/dependency_links.txt
+mirobot_package.egg-info/top_level.txt

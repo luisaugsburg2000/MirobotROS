@@ -1,0 +1,4 @@
+[0.008s] Invoking command in '/home/luis-a/mirobot_ws/build/mirobot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_package -- -j32 -l32
+[0.045s] [100%] Built target mirobot_node
+[0.056s] Invoked command in '/home/luis-a/mirobot_ws/build/mirobot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_package -- -j32 -l32
+[0.079s] Invoking command in '/home/luis-a/mirobot_ws/build/mirobot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/mirobot_package

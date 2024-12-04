@@ -1,0 +1,2 @@
+source;share/mirobot_package/environment/ament_prefix_path.sh
+source;share/mirobot_package/environment/path.sh

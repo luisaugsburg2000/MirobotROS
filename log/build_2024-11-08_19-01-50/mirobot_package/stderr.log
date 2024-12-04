@@ -1,0 +1,7 @@
+[01m[K/home/luis-a/mirobot_ws/src/mirobot_package/src/mirobot_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface.h: No such file or directory
+    4 | #include [01;31m[K<moveit/move_group_interface/move_group_interface.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mirobot_node.dir/build.make:76: CMakeFiles/mirobot_node.dir/src/mirobot_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mirobot_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

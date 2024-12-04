@@ -1,0 +1,4 @@
+source;share/mirobot_package/local_setup.bash
+source;share/mirobot_package/local_setup.dsv
+source;share/mirobot_package/local_setup.sh
+source;share/mirobot_package/local_setup.zsh

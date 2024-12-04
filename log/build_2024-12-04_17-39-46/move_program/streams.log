@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/home/luis-a/mirobot_ws/build/move_program': /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/move_program -- -j32 -l32
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target m2_iface_lib[0m
+[0.046s] [ 50%] Built target m2_iface_lib
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target m2_iface_node[0m
+[0.066s] [100%] Built target m2_iface_node
+[0.077s] Invoked command in '/home/luis-a/mirobot_ws/build/move_program' returned '0': /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/move_program -- -j32 -l32
+[0.111s] Invoking command in '/home/luis-a/mirobot_ws/build/move_program': /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/move_program
+[0.115s] -- Install configuration: ""
+[0.115s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/lib/move_program/libm2_iface_lib.a
+[0.115s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/lib/move_program/m2_iface_node
+[0.115s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/include/
+[0.115s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/include//move_program
+[0.115s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/include//move_program/m2_iface.hpp
+[0.115s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/launch/launch
+[0.115s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/launch/launch/demo.launch.py
+[0.115s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/share/ament_index/resource_index/package_run_dependencies/move_program
+[0.115s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/share/ament_index/resource_index/parent_prefix_path/move_program
+[0.115s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/environment/ament_prefix_path.sh
+[0.115s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/environment/ament_prefix_path.dsv
+[0.115s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/environment/path.sh
+[0.115s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/environment/path.dsv
+[0.115s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/local_setup.bash
+[0.116s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/local_setup.sh
+[0.116s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/local_setup.zsh
+[0.116s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/local_setup.dsv
+[0.116s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/package.dsv
+[0.116s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/ament_index/resource_index/packages/move_program
+[0.116s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/cmake/move_programConfig.cmake
+[0.116s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/cmake/move_programConfig-version.cmake
+[0.116s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/package.xml
+[0.117s] Invoked command in '/home/luis-a/mirobot_ws/build/move_program' returned '0': /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/move_program

@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/luis-a/mirobot_ws/build/move_program': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/move_program -- -j32 -l32
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target move_program[0m
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/move_program.dir/src/move_program.cpp.o[0m
+[2.746s] [01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.747s] [01m[K/home/luis-a/mirobot_ws/src/move_program/src/move_program.cpp:50:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+[2.747s]    50 |   geometry_msgs::msg::PoseStamped randomPose = [01;31m[Kmove_group[m[K.getRandomPose();
+[2.747s]       |                                                [01;31m[K^~~~~~~~~~[m[K
+[4.282s] gmake[2]: *** [CMakeFiles/move_program.dir/build.make:76: CMakeFiles/move_program.dir/src/move_program.cpp.o] Error 1
+[4.282s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_program.dir/all] Error 2
+[4.282s] gmake: *** [Makefile:146: all] Error 2
+[4.284s] Invoked command in '/home/luis-a/mirobot_ws/build/move_program' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/move_program -- -j32 -l32

@@ -1,0 +1,10 @@
+[01m[K/home/luis-a/mirobot_ws/src/mirobot_package/src/mirobot_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/luis-a/mirobot_ws/src/mirobot_package/src/mirobot_node.cpp:90:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::shared_ptr<moveit::planning_interface::MoveGroupInterface> Mirobot::move_group_interface[m[K’ is private within this context
+   90 |     node->[01;31m[Kmove_group_interface[m[K = move_group_interface;
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/luis-a/mirobot_ws/src/mirobot_package/src/mirobot_node.cpp:77:69:[m[K [01;36m[Knote: [m[Kdeclared private here
+   77 |     std::shared_ptr<moveit::planning_interface::MoveGroupInterface> [01;36m[Kmove_group_interface[m[K;
+      |                                                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mirobot_node.dir/build.make:76: CMakeFiles/mirobot_node.dir/src/mirobot_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mirobot_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

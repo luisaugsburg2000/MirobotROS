@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/luis-a/mirobot_ws/build/move_program': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/move_program -- -j32 -l32
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target move_program[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/move_program.dir/src/move_program.cpp.o[0m
+[3.188s] [100%] [32m[1mLinking CXX executable move_program[0m
+[3.317s] [100%] Built target move_program
+[3.323s] Invoked command in '/home/luis-a/mirobot_ws/build/move_program' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/move_program -- -j32 -l32
+[3.338s] Invoking command in '/home/luis-a/mirobot_ws/build/move_program': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/move_program
+[3.342s] -- Install configuration: ""
+[3.342s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/lib/move_program/move_program
+[3.342s] -- Set runtime path of "/home/luis-a/mirobot_ws/install/move_program/lib/move_program/move_program" to ""
+[3.342s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/ament_index/resource_index/package_run_dependencies/move_program
+[3.342s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/ament_index/resource_index/parent_prefix_path/move_program
+[3.342s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/environment/ament_prefix_path.sh
+[3.343s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/environment/ament_prefix_path.dsv
+[3.343s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/environment/path.sh
+[3.343s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/environment/path.dsv
+[3.343s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/local_setup.bash
+[3.343s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/local_setup.sh
+[3.343s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/local_setup.zsh
+[3.343s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/local_setup.dsv
+[3.343s] -- Installing: /home/luis-a/mirobot_ws/install/move_program/share/move_program/package.dsv
+[3.343s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/ament_index/resource_index/packages/move_program
+[3.343s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/cmake/move_programConfig.cmake
+[3.343s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/cmake/move_programConfig-version.cmake
+[3.343s] -- Up-to-date: /home/luis-a/mirobot_ws/install/move_program/share/move_program/package.xml
+[3.344s] Invoked command in '/home/luis-a/mirobot_ws/build/move_program' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/move_program

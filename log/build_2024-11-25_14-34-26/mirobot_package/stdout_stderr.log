@@ -1,0 +1,39 @@
+Built target ament_cmake_python_copy_mirobot_package
+running egg_info
+writing mirobot_package.egg-info/PKG-INFO
+writing dependency_links to mirobot_package.egg-info/dependency_links.txt
+writing top-level names to mirobot_package.egg-info/top_level.txt
+reading manifest file 'mirobot_package.egg-info/SOURCES.txt'
+writing manifest file 'mirobot_package.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_mirobot_package_egg
+-- Install configuration: ""
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/pythonpath.sh
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/pythonpath.dsv
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package-0.0.0-py3.10.egg-info
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package/mirobot_node.py
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package/__init__.py
+Listing '/home/luis-a/mirobot_ws/install/mirobot_package/local/lib/python3.10/dist-packages/mirobot_package'...
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/lib/mirobot_package
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/lib/mirobot_package/mirobot_node.cpp
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/lib/mirobot_package/mirobot_node_old.txt
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/lib/mirobot_package/mirobot_node_new.txt
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/ament_index/resource_index/package_run_dependencies/mirobot_package
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/ament_index/resource_index/parent_prefix_path/mirobot_package
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/path.sh
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/environment/path.dsv
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.bash
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.sh
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.zsh
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/local_setup.dsv
+-- Installing: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/package.dsv
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/ament_index/resource_index/packages/mirobot_package
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/cmake/mirobot_packageConfig.cmake
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/cmake/mirobot_packageConfig-version.cmake
+-- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_package/share/mirobot_package/package.xml

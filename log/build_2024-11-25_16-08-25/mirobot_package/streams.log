@@ -1,0 +1,5 @@
+[0.008s] Invoking command in '/home/luis-a/mirobot_ws/build/mirobot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_package -- -j32 -l32
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target mirobot_node[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/mirobot_node.dir/src/mirobot_node.cpp.o[0m
+[6.726s] [100%] [32m[1mLinking CXX executable mirobot_node[0m
+[7.092s] [100%] Built target mirobot_node

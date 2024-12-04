@@ -1,0 +1,31 @@
+[0.009s] Invoking command in '/home/luis-a/mirobot_ws/build/mirobot_urdf_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_urdf_2 -- -j32 -l32
+[0.031s] Invoked command in '/home/luis-a/mirobot_ws/build/mirobot_urdf_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_urdf_2 -- -j32 -l32
+[0.046s] Invoking command in '/home/luis-a/mirobot_ws/build/mirobot_urdf_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/mirobot_urdf_2
+[0.050s] -- Install configuration: ""
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//launch
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//launch/view_mirobot.launch.py
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//launch/.vscode
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//launch/.vscode/c_cpp_properties.json
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//launch/.vscode/settings.json
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//urdf
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//urdf/mirobot_urdf_2.xacro
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//urdf/mirobot_urdf_2.urdf
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//urdf/mirobot_urdf_2.csv
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//config
+[0.050s] -- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2//config/mirobot_rviz.rviz
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/ament_index/resource_index/package_run_dependencies/mirobot_urdf_2
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/ament_index/resource_index/parent_prefix_path/mirobot_urdf_2
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/environment/ament_prefix_path.sh
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/environment/ament_prefix_path.dsv
+[0.050s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/environment/path.sh
+[0.051s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/environment/path.dsv
+[0.051s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/local_setup.bash
+[0.051s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/local_setup.sh
+[0.051s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/local_setup.zsh
+[0.051s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/local_setup.dsv
+[0.051s] -- Installing: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/package.dsv
+[0.051s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/ament_index/resource_index/packages/mirobot_urdf_2
+[0.051s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/cmake/mirobot_urdf_2Config.cmake
+[0.051s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/cmake/mirobot_urdf_2Config-version.cmake
+[0.051s] -- Up-to-date: /home/luis-a/mirobot_ws/install/mirobot_urdf_2/share/mirobot_urdf_2/package.xml
+[0.057s] Invoked command in '/home/luis-a/mirobot_ws/build/mirobot_urdf_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/luis-a/mirobot_ws/build/mirobot_urdf_2

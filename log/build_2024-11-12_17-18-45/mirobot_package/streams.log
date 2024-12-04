@@ -1,0 +1,28 @@
+[0.006s] Invoking command in '/home/luis-a/mirobot_ws/build/mirobot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_package -- -j32 -l32
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target mirobot_node[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/mirobot_node.dir/src/mirobot_node.cpp.o[0m
+[2.862s] [01m[K/home/luis-a/mirobot_ws/src/mirobot_package/src/mirobot_node.cpp:[m[K In constructor ‘[01m[KMirobot::Mirobot()[m[K’:
+[2.862s] [01m[K/home/luis-a/mirobot_ws/src/mirobot_package/src/mirobot_node.cpp:38:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(Mirobot*, const char [10])[m[K’
+[2.862s]    38 |         MoveGroupInterface(this, "panda_arm"[01;31m[K)[m[K;
+[2.862s]       |                                             [01;31m[K^[m[K
+[2.862s] In file included from [01m[K/home/luis-a/mirobot_ws/src/mirobot_package/src/mirobot_node.cpp:4[m[K:
+[2.862s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+[2.862s]   159 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+[2.863s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.863s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.863s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[2.863s]   145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+[2.863s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.863s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMirobot*[m[K’ to ‘[01m[Kconst SharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Node>&[m[K’}
+[2.863s]   145 |   MoveGroupInterface([01;36m[Kconst rclcpp::Node::SharedPtr& node[m[K, const std::string& group,
+[2.863s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.863s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[2.863s]   134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+[2.863s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.863s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMirobot*[m[K’ to ‘[01m[Kconst SharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Node>&[m[K’}
+[2.863s]   134 |   MoveGroupInterface([01;36m[Kconst rclcpp::Node::SharedPtr& node[m[K, const Options& opt,
+[2.863s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[5.645s] gmake[2]: *** [CMakeFiles/mirobot_node.dir/build.make:76: CMakeFiles/mirobot_node.dir/src/mirobot_node.cpp.o] Error 1
+[5.646s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mirobot_node.dir/all] Error 2
+[5.646s] gmake: *** [Makefile:146: all] Error 2
+[5.648s] Invoked command in '/home/luis-a/mirobot_ws/build/mirobot_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis-a/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/luis-a/mirobot_ws/build/mirobot_package -- -j32 -l32

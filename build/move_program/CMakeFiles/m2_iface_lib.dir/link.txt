@@ -1,0 +1,2 @@
+/usr/bin/ar qc libm2_iface_lib.a CMakeFiles/m2_iface_lib.dir/src/m2_iface.cpp.o
+/usr/bin/ranlib libm2_iface_lib.a
